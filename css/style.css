@@ -1,6 +1,3 @@
-Body{
-    text-align: center;
-}
 header{
     border-style:ridge;
     border-width: 1px;
@@ -11,13 +8,14 @@ header{
     margin-left: 300px;
     margin-right: 300px;
     box-shadow: #092635;
+    text-align:center;
 }
 header h1{
     background-color: #092635;
     color: antiquewhite;
     font-family:inherit;
 }
-header h4 {
+header h3 {
     margin-top: 10px;
     margin-bottom: 2px;
 }
@@ -26,8 +24,49 @@ header p{
     margin-top: 9px;
 }
 h2{
-    background-color:beige ;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 10px;
+    text-align: center;
 }
+.rumusPersegi{
+    text-align: center;
+    background-color:hsl(98, 33%, 84%);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 10px;
+}
+.inputSection{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: #092635;
+    padding: 15px;
+    background-color: hsl(98, 33%, 84%);
+}
+#squareSide{
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.countButton{
+    background-color: hsl(98, 46%, 73%);
+    margin-left: 300px;
+    margin-right: 300px; 
+    margin-top: 10px;
+    padding: 10px;
+}
+button{
+    background-color:mediumseagreen;
+    color:aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1B4242;
+    transform: translateY(2px);
+}
+
