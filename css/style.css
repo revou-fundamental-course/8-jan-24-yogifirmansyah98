@@ -41,20 +41,23 @@ h2{
     margin-right: 300px;
     margin-top: 10px;
     text-align: center;
-    box-shadow: #092635;
+    box-shadow: #092;
     padding: 15px;
-    background-color: hsl(98, 33%, 84%);
+    background-color:#1B4242;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: beige;
 }
 #squareSide{
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 10px;
+    text-align: center;
 }
 .countButton{
     background-color: hsl(98, 46%, 73%);
     margin-left: 300px;
     margin-right: 300px; 
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
 }
 button{
@@ -66,7 +69,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #1B4242;
+    background-color: #30864a;
     transform: translateY(2px);
 }
 
