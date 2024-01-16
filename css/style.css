@@ -72,4 +72,11 @@ button:hover{
     background-color: #30864a;
     transform: translateY(2px);
 }
-
+#clearButton{
+    margin-left: 600px;
+}
+#tableRumus{
+    width:100%;
+    border:1px solid black;
+    text-align: center;
+}
