@@ -30,15 +30,15 @@
         </table>
         </div>
     <div class="inputSection">
-        <label for="squareSide" id="lblsquareSide">Masukan Nilai</label><br>
-        <input type="number" id="squareSide">
+        <label for="squareSide" id="lblsquareSide">Masukan Nilai Sisi</label><br><br>
+        <input type="number" id="squareSide" placeholder="Nilai Sisi">
             <br>
             <br>
-        <button id="countButton" onclick="wide(), squarePerimeter()">Hitung</button>
-        <h4>Luas Persegi= <span id="wide">??</span></h4>
-        <h4>Keliling Persegi adalah = <span  id="squarePerimeter">??</span></h4>
-        <button id="clearButton" onclick="resetButton()">Reset</button>
+        <button id="countButton" onclick="wide(), squarePerimeter(), showResultLuas(), showResultKel(), showSide()">Hitung</button>
+            <p id="showResultLuas" style="display:none">Luas Persegi = <span id="wide">0</span></p>
+            <p id="showResultKel" style="display:none">Keliling Persegi adalah= <span id="squarePerimeter">0</span></p>
+        <button id="clearButton"  onclick="resetButton()">Reset</button>
     </div>
-   <script src="js/script.js"></script>
+    <script src="js/script.js"></script> 
 </body> 
 </html>

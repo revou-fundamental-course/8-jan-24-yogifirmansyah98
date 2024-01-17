@@ -4,15 +4,14 @@ header{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     background-color: #1B4242;
-    color: antiquewhite;
     margin-left: 300px;
     margin-right: 300px;
     box-shadow: #092635;
     text-align:center;
+    color:beige;
 }
 header h1{
     background-color: #092635;
-    color: antiquewhite;
     font-family:inherit;
 }
 header h3 {
