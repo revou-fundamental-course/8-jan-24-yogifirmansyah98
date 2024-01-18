@@ -1,3 +1,6 @@
+Body{
+    text-align: center;
+}
 header{
     border-style:ridge;
     border-width: 1%;
@@ -50,12 +53,8 @@ h2{
     padding: 10px;
     text-align: center;
 }
-.countButton{
-    background-color: hsl(98, 46%, 73%);
-    margin-left: 300%;
-    margin-right: 300%; 
-    margin-top: 20%;
-    padding: 10%;
+#countButton{
+    margin-inline: 45%;
 }
 button{
     background-color:mediumseagreen;
